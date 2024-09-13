@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .wrapper {
   width: 588px;
   height: 712px;
   margin-top: 56px;
+  font-family: "Inter", sans-serif;
 }
 
-.wrapper img {
+#profile-pic {
   margin-top: 24px;
   width: 112px;
   height: 112px;
@@ -13,4 +16,38 @@
 
 .wrapper p {
   color: white;
+}
+
+.toggler {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nav-buttons button {
+  font-size: 16px;
+  padding: 0px 24px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 56px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px)
+}
+
+.socials {
+  margin-top: 56px;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+
+#copy {
+  margin-top: 48px;
 }
