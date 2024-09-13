@@ -1,0 +1,16 @@
+.wrapper {
+  width: 588px;
+  height: 712px;
+  margin-top: 56px;
+}
+
+.wrapper img {
+  margin-top: 24px;
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+} 
+
+.wrapper p {
+  color: white;
+}
