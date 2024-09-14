@@ -8,3 +8,7 @@
   background-repeat:round
 }
 
+
+body.light .App {
+  background-image: url(../public/1231.png);
+}
