@@ -8,9 +8,9 @@ const MainContainer = () => {
     <div className='wrapper'>
       <img id='profile-pic' src="fred.png" alt="" />
       <p>@ale.dev</p>
-      <button className='toggler'>
+      
         <ThemeToggler />
-      </button>
+      
       <nav className='nav-buttons'>
         <button>Veja meu portfólio</button>
         <button>Baixe meu currículo</button>

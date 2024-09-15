@@ -29,11 +29,6 @@ body.light .wrapper p {
 
 
 
-.toggler {
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
 .nav-buttons {
   display: flex;
   flex-direction: column;
@@ -59,7 +54,7 @@ body.light .nav-buttons button {
   border: 1px solid rgba(0, 0, 0, 0.5);
   height: 56px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.05);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px)
 }

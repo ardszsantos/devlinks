@@ -1,14 +1,16 @@
 // ThemeToggler.js
-import SwitchLight from '../../public/Switch.svg'; 
-import SwitchDark from '../../public/Switch2.svg';
+import SwitchLight from '../Switch.svg'; 
+import SwitchDark from '../Switch2.svg';
 import { useState } from 'react';
+import './styles/toggler.css';
 
 const ThemeToggler = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  // Set the initial state to true to start with dark mode
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleTheme = () => {
     setDarkMode(!darkMode);
-    document.body.className = darkMode ? 'light' : 'dark'; // Applying theme globally
+    document.body.className = darkMode ? 'light' : 'dark';
   };
 
   return (
@@ -20,6 +22,7 @@ const ThemeToggler = () => {
       />
     </div>
   );
-}
+};
+
 
 export default ThemeToggler;
