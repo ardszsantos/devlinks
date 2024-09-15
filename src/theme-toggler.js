@@ -1,4 +1,6 @@
 // ThemeToggler.js
+import SwitchLight from '../../public/Switch.svg'; 
+import SwitchDark from '../../public/Switch2.svg';
 import { useState } from 'react';
 
 const ThemeToggler = () => {
@@ -10,9 +12,13 @@ const ThemeToggler = () => {
   };
 
   return (
-    <button onClick={toggleTheme}>
-      {darkMode ? 'Light Mode' : 'Dark Mode'}
-    </button>
+    <div className="theme-toggler" onClick={toggleTheme}>
+      <img
+        src={darkMode ? SwitchDark : SwitchLight}
+        alt="Theme Switch"
+        className={`switch ${darkMode ? 'dark' : 'light'}`}
+      />
+    </div>
   );
 }
 

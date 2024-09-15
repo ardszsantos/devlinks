@@ -13,12 +13,21 @@
   height: 112px;
   border-radius: 50%;
   border: 1px white solid;
-  
 } 
+
+body.light #profile-pic {
+  border: 1px black solid;
+}
 
 .wrapper p {
   color: white;
 }
+
+body.light .wrapper p {
+  color: black;
+}
+
+
 
 .toggler {
   margin-top: 24px;
@@ -61,6 +70,41 @@ body.light .nav-buttons button {
   display: flex;
   gap: 35px;
   justify-content: center;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  /* Defina o tamanho desejado */
+  height: 24px;
+  background-color: white;
+  /* Cor padrão dos ícones */
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  margin-right: 10px;
+  /* Espaçamento entre os ícones */
+}
+
+.icon-github {
+  mask-image: url('../../../public/GitHub.svg');
+}
+
+.icon-instagram {
+  mask-image: url('../../../public/Instagram.svg');
+}
+
+.icon-youtube {
+  mask-image: url('../../../public/YouTube.svg');
+}
+
+.icon-linkedin {
+  mask-image: url('../../../public/LinkedIn.svg');
+}
+
+/* Estilos para o modo claro */
+body.light .icon {
+  background-color: black;
 }
 
 #copy {

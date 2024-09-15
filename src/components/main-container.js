@@ -18,10 +18,10 @@ const MainContainer = () => {
         <button>Entre em contato</button>
       </nav>
       <div className='socials'>
-        <img src="GitHub.svg" alt="" />
-        <img src="Instagram.svg" alt="" />
-        <img src="YouTube.svg" alt="" />
-        <img src="LinkedIn.svg" alt="" />
+        <a href="#" class="icon icon-github"></a>
+        <a href="#" class="icon icon-instagram"></a>
+        <a href="#" class="icon icon-youtube"></a>
+        <a href="#" class="icon icon-linkedin"></a>
       </div>
       <p id='copy'>&copy; Alexandre Rodrigues ~ <span>2024</span></p>
     </div>
