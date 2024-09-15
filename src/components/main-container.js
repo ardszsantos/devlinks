@@ -12,10 +12,10 @@ const MainContainer = () => {
         <ThemeToggler />
       
       <nav className='nav-buttons'>
-        <button>Veja meu portfólio</button>
-        <button>Baixe meu currículo</button>
-        <button>Me siga no spotify</button>
-        <button>Entre em contato</button>
+        <button><a>Veja meu portfólio</a></button>
+        <button><a>Baixe meu currículo</a></button>
+        <button><a>Me siga no spotify</a></button>
+        <button><a>Entre em contato</a></button>
       </nav>
       <div className='socials'>
         <a href="#" class="icon icon-github"></a>

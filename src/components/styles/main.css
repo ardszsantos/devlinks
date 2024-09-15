@@ -109,3 +109,15 @@ body.light .icon {
 #copy span {
   text-decoration: underline;
 }
+
+@media (max-width: 900px) {
+  .nav-buttons {
+    padding: 0px 24px;
+  }
+
+  .socials {
+    gap: 16px;
+    padding: 24px;
+    justify-content: center;
+  }
+}
